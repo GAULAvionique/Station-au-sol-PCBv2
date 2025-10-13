@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SAS_PCBv2_footprint")(type "KiCad")(uri "${KIPRJMOD}/SAS_PCBv2_footprint.pretty")(options "")(descr ""))
+)

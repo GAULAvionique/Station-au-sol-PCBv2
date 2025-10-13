@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SAS_PCBv2_symbol")(type "KiCad")(uri "${KIPRJMOD}/SAS_PCBv2_symbol.kicad_sym")(options "")(descr ""))
+)
