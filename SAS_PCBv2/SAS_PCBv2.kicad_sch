@@ -1249,6 +1249,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1478,7 +1603,7 @@
 	)
 	(text "**J'ai placé les boutons sur les pins qui n'ont pas de fonction spéciales (I2C / UART)."
 		(exclude_from_sim no)
-		(at 233.68 94.488 0)
+		(at 227.838 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1528,6 +1653,12 @@
 		(color 0 0 0 0)
 		(uuid "d33fee9a-4e34-4ae8-aa62-ed0c3eed537f")
 	)
+	(junction
+		(at 158.75 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8404e7a-9c73-4b23-86bf-32ca26af2bd5")
+	)
 	(wire
 		(pts
 			(xy 166.37 91.44) (xy 161.29 91.44)
@@ -1567,6 +1698,36 @@
 			(type default)
 		)
 		(uuid "48d49dd3-76ee-4556-b88d-d7f093e241a9")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcebf9b-bd62-4eef-9d70-7da9931cfed4")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 166.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b41fa0-8332-48a8-b936-8fe13b4df304")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526a8438-070e-4a4d-af01-5e73437e7eeb")
 	)
 	(wire
 		(pts
@@ -1627,6 +1788,26 @@
 			(type default)
 		)
 		(uuid "70af2b3e-991a-406a-a2ab-ee33568c0c6b")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919e9879-728a-4687-a0b1-f76b004f0b4c")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9383220c-5359-47ea-a782-ca4207732556")
 	)
 	(wire
 		(pts
@@ -1737,6 +1918,16 @@
 			(type default)
 		)
 		(uuid "e8af3b2c-0ff4-4180-91df-31d02f4e8e17")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea50b718-f3df-4ccd-9577-8ef296a0c06c")
 	)
 	(wire
 		(pts
@@ -1854,6 +2045,28 @@
 			)
 		)
 	)
+	(global_label "I2C_3V3_SDA"
+		(shape input)
+		(at 149.86 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75e8db6c-3410-4bc4-b5a2-6381c6f3ba8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.7796 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTN_2"
 		(shape input)
 		(at 143.51 96.52 180)
@@ -1867,6 +2080,28 @@
 		(uuid "7a75f7a6-ad19-4bd0-8459-47d6e9416ca1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.7796 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_3V3_SCL"
+		(shape input)
+		(at 149.86 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f270a640-89c4-4107-b532-c91480558612")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.8401 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,6 +2282,72 @@
 			(project ""
 				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 158.75 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad4bb3e6-46e7-47b0-8d8e-9c9cc043306e")
+		(property "Reference" "#PWR032"
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8dd6724-ecc7-4793-8050-b45eedabb346")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
