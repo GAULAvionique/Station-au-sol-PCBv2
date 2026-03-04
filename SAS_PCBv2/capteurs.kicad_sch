@@ -5,6 +5,207 @@
 	(uuid "917ec4f8-11f8-41dd-9718-353a52554143")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J12"
+				(at -4.572 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at -7.874 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -1173,6 +1374,31 @@
 		)
 		(uuid a80e44c3-beab-4fce-9274-e2588284f05c)
 	)
+	(rectangle
+		(start 78.74 19.05)
+		(end 142.24 60.96)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 24 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa01f515-78dd-447c-b40e-18e7efe0d713)
+	)
+	(rectangle
+		(start 109.22 60.96)
+		(end 109.22 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb9387e2-66b8-428e-90f8-7bc64146a0ba)
+	)
 	(text "Enable active high"
 		(exclude_from_sim no)
 		(at 70.866 129.032 0)
@@ -1203,6 +1429,16 @@
 		)
 		(uuid "718cf96c-d0d8-4424-8fe1-5c036d5346da")
 	)
+	(text "GPS Neo-6M (UART)\n"
+		(exclude_from_sim no)
+		(at 91.44 17.526 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+		)
+		(uuid "88a52c95-7bf5-4bc8-911d-773e6f52db16")
+	)
 	(text "I2C address\nSDO_low = 0x76\n"
 		(exclude_from_sim no)
 		(at 23.876 62.23 0)
@@ -1222,6 +1458,16 @@
 			)
 		)
 		(uuid "970571ff-3924-4c1d-b569-15fac5ef27f9")
+	)
+	(text "Current draw 100mA\n"
+		(exclude_from_sim no)
+		(at 89.916 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4caf854-88cd-4e4f-9729-c739e061ad57")
 	)
 	(text "Current draw 100mA"
 		(exclude_from_sim no)
@@ -1269,6 +1515,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 33.02) (xy 107.95 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4c611f-a38e-4c52-a113-c7c401237b43")
+	)
+	(wire
+		(pts
 			(xy 52.07 127) (xy 52.07 121.92)
 		)
 		(stroke
@@ -1306,6 +1562,16 @@
 			(type default)
 		)
 		(uuid "2ae905f9-b10c-4bd5-8471-087611f46734")
+	)
+	(wire
+		(pts
+			(xy 107.95 39.37) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4193dc94-7c66-4535-a966-8db18a3acce1")
 	)
 	(wire
 		(pts
@@ -1399,6 +1665,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 41.91) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c0e978-0008-4ba3-83e5-c26db276cb76")
+	)
+	(wire
+		(pts
 			(xy 52.07 121.92) (xy 57.15 121.92)
 		)
 		(stroke
@@ -1469,6 +1745,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 43.18) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0401f0e-80b0-480d-b74c-97f98c61faad")
+	)
+	(wire
+		(pts
+			(xy 107.95 34.29) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6720f3a-9d5a-42fe-ad69-1e0c4d50d82e")
+	)
+	(wire
+		(pts
 			(xy 43.18 46.99) (xy 44.45 46.99)
 		)
 		(stroke
@@ -1476,6 +1772,16 @@
 			(type default)
 		)
 		(uuid "c92ec756-2494-43af-9fe7-e910b0f2ef52")
+	)
+	(wire
+		(pts
+			(xy 107.95 36.83) (xy 113.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99b8a2d-3c24-4130-8640-8c38dab31aa4")
 	)
 	(wire
 		(pts
@@ -1563,6 +1869,28 @@
 			)
 		)
 	)
+	(global_label "UART_GPS_RX"
+		(shape input)
+		(at 107.95 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67aca1b9-f590-4216-a4e1-bb7e4835c354")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.1439 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_3V3_SDA"
 		(shape input)
 		(at 35.56 113.03 180)
@@ -1598,6 +1926,28 @@
 		(uuid "94060449-d2ff-4b95-a6ce-f99fefa4aa5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.5401 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_GPS_TX"
+		(shape input)
+		(at 107.95 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "978e2515-cc1f-44fc-b42a-981e6cd63558")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.4463 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,6 +2244,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 118.11 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3afc2644-de3c-4c32-9e2b-dc74827e0318")
+		(property "Reference" "J12"
+			(at 113.538 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 110.236 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02bbd011-c412-48d0-b321-801af5580e30")
+		)
+		(pin "4"
+			(uuid "d6ca608f-be50-4661-a8fc-66e76728dcc0")
+		)
+		(pin "1"
+			(uuid "68e263f5-f5a3-49e4-98ae-5657b7a562c7")
+		)
+		(pin "3"
+			(uuid "10063006-ac57-44f0-b855-8d1b3641af48")
+		)
+		(instances
+			(project "SAS_PCBv2"
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/2bfbf80c-0ce8-4168-83e4-5a2dc281cc69"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 124.46 0)
 		(unit 1)
@@ -1954,6 +2379,72 @@
 			(project ""
 				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/2bfbf80c-0ce8-4168-83e4-5a2dc281cc69"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 107.95 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468bd356-15fe-4ed1-9a0f-1a24c6ce11af")
+		(property "Reference" "#PWR041"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6a7cc39-72d1-4e66-aa44-e1c9320d9629")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/2bfbf80c-0ce8-4168-83e4-5a2dc281cc69"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2024,6 +2515,72 @@
 			(project "SAS_PCBv2"
 				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/2bfbf80c-0ce8-4168-83e4-5a2dc281cc69"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58951763-edd9-4bf1-a0e9-d8cb3c07895c")
+		(property "Reference" "#PWR042"
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd1e7ab3-7777-4a77-b0b7-580a512daea1")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/2bfbf80c-0ce8-4168-83e4-5a2dc281cc69"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
