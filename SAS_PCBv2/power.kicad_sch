@@ -168,6 +168,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOD?"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL4015E Buck Module w/ Display"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0.762 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Amazon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.amazon.ca/Converter-1-25-36V-Voltage-Regulator-Display/dp/B085T73CSD?dib=eyJ2IjoiMSJ9.oqSsT0byuyaW9tpal8yDDVMD8jCZi8TrMfJinycgdUl37Zs9aopU7BLYW0oR4UeIbQ-IbkuXQM_tMRxYD7aZAN_PRQHDdHUZrUdvDfubkoW0n5nD2LnVQ5x7B1Dr-CNAvN1MsN3BW2xR3xrMs2SPZywugNpBwmyBimqPV49y6CRFsRLUfOaypSEtslrG4flLj0tHaXQF-hjIJpyfzJ69ip9etz0-VI7yyGqCZZ7lntMk0w-DZ25S8R3B5TbXQf1N5uU_8gOK57UYur_qXJfGOBwfsWYZ-Tr1BwlhrIdVCm4.PwkztglwdrCcXFsYmk34Hz4SvyVKFRLCRU0-9-kQVY8&dib_tag=se&keywords=Buck+Converter&qid=1772720773&sr=8-8"
+				(at 1.778 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 19.05 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.78 -7.493)
+					(end 19.05 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 19.05 -2.413)
+					(end 17.78 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "IN+"
+					(at 2.032 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "IN-"
+					(at 2.032 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "OUT+"
+					(at 14.732 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "OUT-"
+					(at 14.732 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -2.54 180)
+					(length 3.81)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -7.62 180)
+					(length 3.81)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1048,6 +1298,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+7.5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+7.5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+7.5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+7.5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1174,6 +1549,16 @@
 		)
 		(uuid 9d8f1d14-d9aa-4a90-b037-6a1bcaee5d1d)
 	)
+	(text "**Layout must include the 4 holes for the copper cylinders(screws). Follow measurements on the specs on the amazon page\n"
+		(exclude_from_sim no)
+		(at 185.674 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1798375d-437c-47c9-8e7d-cc3fb5732459")
+	)
 	(text "Low Dropout Regulator 3V3"
 		(exclude_from_sim no)
 		(at 33.528 67.31 0)
@@ -1194,6 +1579,16 @@
 		)
 		(uuid "3b74abb4-dcec-44a9-8747-cbd72fc40f88")
 	)
+	(text "Input V must be at least 1.5V higher than OUT\n"
+		(exclude_from_sim no)
+		(at 165.608 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d02df03-586a-4559-98ed-fcb770cb5ee7")
+	)
 	(text "Tjrs allumé? (EN = 1 ?)"
 		(exclude_from_sim no)
 		(at 53.848 105.41 0)
@@ -1213,6 +1608,16 @@
 			)
 		)
 		(uuid "cee20901-9497-4fab-8023-4ee74153f694")
+	)
+	(text "Warning:\nModule factory setting is HIGH VOLTAGE.\nDO NOT connect 5V loads (Raspberry Pi/Radio) yet.\n1. Power on board.\n2. Turn blue potentiometer CCW 7-15 turns.\n3. Verify output is exactly 5.0V using the onboard LED display.\n4. Power off, then connect 5V devices."
+		(exclude_from_sim no)
+		(at 217.17 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2ada8ea-ddc6-4a21-aae1-7f965e9e70d3")
 	)
 	(junction
 		(at 76.2 87.63)
@@ -1284,6 +1689,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 44.45) (xy 151.13 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae251f7-c553-4bba-aa49-36d4a11f9a0f")
+	)
+	(wire
+		(pts
 			(xy 34.29 107.95) (xy 34.29 109.22)
 		)
 		(stroke
@@ -1321,6 +1736,16 @@
 			(type default)
 		)
 		(uuid "5c0b80ae-d703-4ce4-b3e2-3e1aba069478")
+	)
+	(wire
+		(pts
+			(xy 151.13 49.53) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634f7bb1-7a4e-4ab9-beca-8b3913112f3c")
 	)
 	(wire
 		(pts
@@ -1384,6 +1809,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 43.18) (xy 182.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafaba56-1197-49a1-8d29-cf35df7a36cb")
+	)
+	(wire
+		(pts
 			(xy 25.4 83.82) (xy 25.4 87.63)
 		)
 		(stroke
@@ -1404,6 +1839,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 49.53) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ee2ccf-c225-43c6-b53d-031d6d72c20b")
+	)
+	(wire
+		(pts
+			(xy 147.32 49.53) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61f3f25-b28a-4a7c-913e-5c45c0c5b72f")
+	)
+	(wire
+		(pts
 			(xy 34.29 45.72) (xy 34.29 46.99)
 		)
 		(stroke
@@ -1421,6 +1876,92 @@
 			(type default)
 		)
 		(uuid "ec3c8785-e6be-4d44-bb0e-27a7c03b7dcc")
+	)
+	(wire
+		(pts
+			(xy 182.88 49.53) (xy 182.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35bebdd-a628-43e7-ad11-bd2ede8f8a4c")
+	)
+	(wire
+		(pts
+			(xy 179.07 44.45) (xy 182.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdea614b-6103-4625-a650-831d02d10693")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "038c9391-d924-47ff-96ee-1de0ac0bfb64")
+		(property "Reference" "#PWR045"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "224d844d-6260-4fc4-ba54-1853d67bc044")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SAS_PCBv2_symbol:SPX3819M5-L-3-3")
@@ -1622,6 +2163,295 @@
 			(project ""
 				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6e201b-2ac9-4d2f-b844-256f0ebd2c10")
+		(property "Reference" "#PWR046"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3c52fef-ca6f-44e3-a5c5-d4ccb5de2039")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 156.21 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1de23ac6-d522-4973-b754-15318173177c")
+		(property "Reference" "MOD?"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL4015E Buck Module w/ Display"
+			(at 159.258 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.972 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Amazon"
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.amazon.ca/Converter-1-25-36V-Voltage-Regulator-Display/dp/B085T73CSD?dib=eyJ2IjoiMSJ9.oqSsT0byuyaW9tpal8yDDVMD8jCZi8TrMfJinycgdUl37Zs9aopU7BLYW0oR4UeIbQ-IbkuXQM_tMRxYD7aZAN_PRQHDdHUZrUdvDfubkoW0n5nD2LnVQ5x7B1Dr-CNAvN1MsN3BW2xR3xrMs2SPZywugNpBwmyBimqPV49y6CRFsRLUfOaypSEtslrG4flLj0tHaXQF-hjIJpyfzJ69ip9etz0-VI7yyGqCZZ7lntMk0w-DZ25S8R3B5TbXQf1N5uU_8gOK57UYur_qXJfGOBwfsWYZ-Tr1BwlhrIdVCm4.PwkztglwdrCcXFsYmk34Hz4SvyVKFRLCRU0-9-kQVY8&dib_tag=se&keywords=Buck+Converter&qid=1772720773&sr=8-8"
+			(at 157.988 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "12d50b0a-b8ed-4208-b6a7-ac5837cbd0cf")
+		)
+		(pin "4"
+			(uuid "ad5069c9-9e29-4850-b413-7e6d207af900")
+		)
+		(pin "2"
+			(uuid "46948db2-eb60-43ba-835a-d3598c6d574e")
+		)
+		(pin "1"
+			(uuid "6b19e532-1e6f-4f03-90d0-37316a4ccfdf")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
+					(reference "MOD?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 146.05 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "602e3251-9bae-4055-8035-17b2ede2b6c1")
+		(property "Reference" "#PWR048"
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+7.5V"
+			(at 146.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1960e0-beeb-42d3-834e-775110508126")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663b4977-ec0e-47d8-8889-5b349d218c0a")
+		(property "Reference" "#PWR047"
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e48e2bb9-2881-47c1-b88f-a6498a312eb7")
+		)
+		(instances
+			(project ""
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
