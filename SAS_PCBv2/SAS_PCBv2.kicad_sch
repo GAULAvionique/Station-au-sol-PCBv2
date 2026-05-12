@@ -1531,10 +1531,6 @@
 		(uuid "360c6302-dadf-4cd9-8227-a366f7a8f687")
 	)
 	(no_connect
-		(at 166.37 106.68)
-		(uuid "4e0f31b9-440e-4457-b97b-7bcd3167e8b2")
-	)
-	(no_connect
 		(at 179.07 124.46)
 		(uuid "53da2864-ee5e-4cbc-808e-4585118fca7c")
 	)
@@ -1545,10 +1541,6 @@
 	(no_connect
 		(at 179.07 93.98)
 		(uuid "7b949372-6012-406e-bf94-f6829d842f88")
-	)
-	(no_connect
-		(at 179.07 109.22)
-		(uuid "80641810-e7a4-495a-905a-3853ab2e753c")
 	)
 	(no_connect
 		(at 166.37 109.22)
@@ -1607,6 +1599,16 @@
 			(type default)
 		)
 		(uuid "18f8dda6-dea2-4202-bb7c-dad6f698604c")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf3d861-3552-4239-81fa-c0b65a19813b")
 	)
 	(wire
 		(pts
@@ -1707,6 +1709,16 @@
 			(type default)
 		)
 		(uuid "689286d4-00ed-46e7-85e8-218a69204b7b")
+	)
+	(wire
+		(pts
+			(xy 179.07 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a776601-30ed-4445-9ce7-04685a17a2e1")
 	)
 	(wire
 		(pts
@@ -1908,7 +1920,7 @@
 		)
 		(uuid "fd20bc64-fd69-47bd-bafc-704ae5983109")
 	)
-	(global_label "UART_RADIO_RX"
+	(global_label "UART_RAD1_RX"
 		(shape input)
 		(at 152.4 88.9 180)
 		(fields_autoplaced yes)
@@ -1952,7 +1964,7 @@
 			)
 		)
 	)
-	(global_label "UART_RADIO_TX"
+	(global_label "UART_RAD1_TX"
 		(shape input)
 		(at 152.4 116.84 180)
 		(fields_autoplaced yes)
@@ -2084,6 +2096,28 @@
 			)
 		)
 	)
+	(global_label "UART_RAD2_TX"
+		(shape input)
+		(at 152.4 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fa4b0ff-24f9-4de4-abd7-3a30d27bbab5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.0819 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_GPS_TX"
 		(shape input)
 		(at 186.69 91.44 0)
@@ -2120,6 +2154,28 @@
 		(uuid "c58277de-6c2e-4cc3-86f6-06e940339bc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.0857 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RAD2_RX"
+		(shape input)
+		(at 196.85 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6e6f391-17c8-4eec-91cc-5b43efd90207")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4705 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,6 +2517,69 @@
 			)
 		)
 		(property "Description" "Raspberry Pi 4B"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" ""
 			(at 171.45 104.14 0)
 			(effects
 				(font
