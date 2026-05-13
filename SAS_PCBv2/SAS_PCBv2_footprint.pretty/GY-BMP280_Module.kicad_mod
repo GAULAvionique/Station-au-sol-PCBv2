@@ -1,0 +1,310 @@
+(footprint "GY-BMP280_Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GY-BMP280-3.3 Breakout Board 11.5x15mm 6-pin 2.54mm pitch 2x NPTH M3")
+	(tags "BMP280 breakout GY sensor pressure I2C SPI")
+	(property "Reference" "REF**"
+		(at 5.75 -2 0)
+		(layer "F.SilkS")
+		(uuid "f8ffc4a3-8ece-4395-a4da-293155d7d4fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GY-BMP280"
+		(at 5.75 17 0)
+		(layer "F.Fab")
+		(uuid "6232eb9c-0034-41bb-b5c9-2e4f26768aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa048bd6-e120-47b5-b1f3-6c09d5c5b3b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b40eaf5-1df6-46da-99a8-4874720c82cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.2 -0.2)
+		(end 11.7 -0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21653dd7-d3c4-4456-b533-9203e379699c")
+	)
+	(fp_line
+		(start -0.2 15.2)
+		(end -0.2 -0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3864cc5-e52f-4335-a7b1-a9267a6deb0f")
+	)
+	(fp_line
+		(start 11.7 -0.2)
+		(end 11.7 15.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20b9da18-4521-4672-92a5-f04b2dabc100")
+	)
+	(fp_line
+		(start 11.7 15.2)
+		(end -0.2 15.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a259746-a91a-4035-9958-81bdbf9a560c")
+	)
+	(fp_line
+		(start 0 0)
+		(end 11.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77cf4105-3e5f-4280-be6e-4272cac747cd")
+	)
+	(fp_line
+		(start 0 15)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5f6ffab7-8b5d-4979-978c-8f323d9a0a96")
+	)
+	(fp_line
+		(start 11.5 0)
+		(end 11.5 15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "29fad315-cc0b-4fc1-b3f1-60841e4638c6")
+	)
+	(fp_line
+		(start 11.5 15)
+		(end 0 15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c8190a1-9989-424b-9e42-41149821d167")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end 12 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdd91e8c-e2bd-4351-8e16-0fb3bf9f230b")
+	)
+	(fp_line
+		(start -0.5 15.5)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e377033-a725-44c4-a869-94f02e847cd0")
+	)
+	(fp_line
+		(start 12 -0.5)
+		(end 12 15.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8bcc958a-89e2-497b-bfa4-783914d3a2e4")
+	)
+	(fp_line
+		(start 12 15.5)
+		(end -0.5 15.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a62589d3-345a-44b0-8323-9d3bd725c1ca")
+	)
+	(fp_text user "VCC"
+		(at 7.8 1.27 0)
+		(layer "F.SilkS")
+		(uuid "4114a92b-1b5c-4820-9e06-cdd3c95171a6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "GND"
+		(at 7.8 3.81 0)
+		(layer "F.SilkS")
+		(uuid "447fcb63-adf8-4afc-820f-5056b9b51476")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "SDA"
+		(at 7.8 8.89 0)
+		(layer "F.SilkS")
+		(uuid "54b7ac02-d9bb-4fa4-8205-0676f0c96933")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "CSB"
+		(at 7.8 11.43 0)
+		(layer "F.SilkS")
+		(uuid "86a46cad-dc06-49fb-bc3e-3dfc6cdd1b71")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "SCL"
+		(at 7.8 6.35 0)
+		(layer "F.SilkS")
+		(uuid "f6c9f5c0-7ea5-4231-99e2-bae6018450c6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "SDO"
+		(at 7.8 13.97 0)
+		(layer "F.SilkS")
+		(uuid "fe98bb5c-a566-41b9-a8f2-aa3cc4bc8f79")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.75 2.75)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ddf0417d-ad5c-470d-9d4a-ddf44009667a")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.75 12.25)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a3d81432-d6ba-41a6-90b2-2396e0dc1a7c")
+	)
+	(pad "1" thru_hole rect
+		(at 9.5 1.27)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0084dcda-d2e3-4f97-a363-7269875b7b5e")
+	)
+	(pad "2" thru_hole circle
+		(at 9.5 3.81)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ee2387d-a093-48ff-a72b-914012c8a38b")
+	)
+	(pad "3" thru_hole circle
+		(at 9.5 6.35)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e3f369f2-83d9-49ed-8eac-ee6433a7a9e6")
+	)
+	(pad "4" thru_hole circle
+		(at 9.5 8.89)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a909b55-391a-4654-8493-46ed984c30ef")
+	)
+	(pad "5" thru_hole circle
+		(at 9.5 11.43)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26d6f940-2053-4ebc-babc-55122cb6dfc4")
+	)
+	(pad "6" thru_hole circle
+		(at 9.5 13.97)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6349da61-5ad6-41a7-9d01-0f9c90c69d51")
+	)
+	(embedded_fonts no)
+)

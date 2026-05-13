@@ -1413,6 +1413,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Choses restantes : Verif Radio + Footprint Radio + Trouver resistances wikiGEL + Trouver condensateurs wikiGEL"
+		(exclude_from_sim no)
+		(at 72.39 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c73f9ee-0167-41d2-af2a-329839c28564")
+	)
 	(junction
 		(at 198.12 96.52)
 		(diameter 0)
@@ -1511,10 +1521,6 @@
 		(at 166.37 121.92)
 		(uuid "f3a8e3e7-b932-47ae-a6f4-04f9b911b66a")
 	)
-	(no_connect
-		(at 166.37 127)
-		(uuid "f69e8e23-7dd1-4410-a0c5-73cb013921e6")
-	)
 	(wire
 		(pts
 			(xy 193.04 88.9) (xy 200.66 88.9)
@@ -1564,6 +1570,16 @@
 			(type default)
 		)
 		(uuid "36578208-f1b4-4249-a10f-e6c5847948a6")
+	)
+	(wire
+		(pts
+			(xy 152.4 127) (xy 166.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ec3c01-15d4-4018-ad74-267011a76a6b")
 	)
 	(wire
 		(pts
@@ -2081,6 +2097,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_TACH"
+		(shape input)
+		(at 152.4 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3e2c2ff-62b0-40d5-a609-fc7577da2b5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.0819 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
