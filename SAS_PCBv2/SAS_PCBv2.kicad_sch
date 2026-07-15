@@ -1457,6 +1457,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Cables : 600AC0001 + 600AB0001(5V / 3A)"
+		(exclude_from_sim no)
+		(at 178.562 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f39ffcca-70d8-4278-ad05-93a7f209ee71")
+	)
 	(junction
 		(at 198.12 96.52)
 		(diameter 0)

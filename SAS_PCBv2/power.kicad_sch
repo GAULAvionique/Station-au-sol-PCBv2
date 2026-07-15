@@ -903,6 +903,248 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PNP_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q3"
+				(at 5.08 -1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N4403"
+				(at 5.08 1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SAS_PCBv2_footprint:PBIP_2N4403_DIO"
+				(at 35.56 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://my.centralsemi.com/datasheets/2N4402.PDF"
+				(at 35.56 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2N4403"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PNP_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PNP_1_1_1"
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LF33_TO220"
 			(pin_names
 				(offset 0.254)
@@ -1462,27 +1704,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+			(property "Reference" "Q2"
+				(at 5.08 -1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "PNP"
-				(at -2.54 5.08 0)
+			(property "Value" "2N4403"
+				(at 5.08 1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SAS_PCBv2_footprint:PBIP_2N4403_DIO"
 				(at 35.56 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1493,7 +1737,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(property "Datasheet" "https://my.centralsemi.com/datasheets/2N4402.PDF"
 				(at 35.56 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1504,7 +1748,7 @@
 					)
 				)
 			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Description" "2N4403"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1537,7 +1781,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
+			(property "Sim.Pins" "1=E 2=B 3=C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1633,10 +1877,10 @@
 				)
 			)
 			(symbol "PNP_1_1"
-				(pin open_collector line
-					(at 2.54 5.08 270)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1669,10 +1913,10 @@
 						)
 					)
 				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
+				(pin open_collector line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1690,7 +1934,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1701,7 +1945,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1710,8 +1954,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1732,6 +1976,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1742,7 +1997,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1753,21 +2008,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1778,7 +2022,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1789,8 +2033,19 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1800,9 +2055,20 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1820,7 +2086,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -1830,6 +2096,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2282,6 +2566,16 @@
 		)
 		(uuid "cf2bd696-9785-419b-9da0-43b019737890")
 	)
+	(text "Fuse 5A : 5sf 5-r"
+		(exclude_from_sim no)
+		(at 27.94 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cfa96b8-4b4e-4207-b213-a9ca281d1936")
+	)
 	(text "Low Dropout Regulator 3V3"
 		(exclude_from_sim no)
 		(at 30.988 59.69 0)
@@ -2291,6 +2585,16 @@
 			)
 		)
 		(uuid "1deb2086-0ae3-4268-bf61-1139012fd05c")
+	)
+	(text "Support 10A/500V : 0031.8201"
+		(exclude_from_sim no)
+		(at 34.544 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31a92b48-ca8f-4bc5-9721-90c95ca1d81c")
 	)
 	(text "Diode idéale (Transistors??)"
 		(exclude_from_sim no)
@@ -2341,16 +2645,6 @@
 			)
 		)
 		(uuid "b2f0837d-65bb-4838-8334-4b6970370a90")
-	)
-	(text "5V power input XA current"
-		(exclude_from_sim no)
-		(at 32.766 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cee20901-9497-4fab-8023-4ee74153f694")
 	)
 	(text "Warning:\nModule factory setting is HIGH VOLTAGE.\nDO NOT connect 5V loads (Raspberry Pi/Radio) yet.\n1. Power on board.\n2. Turn blue potentiometer CCW 7-15 turns.\n3. Verify output is exactly 5.0V using the onboard LED display.\n4. Power off, then connect 5V devices."
 		(exclude_from_sim no)
@@ -2445,6 +2739,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa84694e-f9fa-4c08-b3bc-966cbc6216dc")
+	)
+	(no_connect
+		(at 54.61 35.56)
+		(uuid "cb4542d7-74ad-447b-a858-ab2b371dc13f")
 	)
 	(wire
 		(pts
@@ -2858,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 33.02) (xy 60.96 33.02)
+			(xy 54.61 30.48) (xy 60.96 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3360,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 60.96 33.02 0)
+		(at 60.96 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3072,7 +3370,7 @@
 		)
 		(uuid "5f092f12-f634-4662-9d13-a8e75cdaa7e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.9691 33.02 0)
+			(at 66.9691 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,6 +5013,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 49.53 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba2acbd-20d3-4786-80a7-5563a28a2c23")
+		(property "Reference" "SW2"
+			(at 49.53 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 49.53 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAS_PCBv2_footprint:SW_ANT1_CRS"
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.citrelay.com/wp-content/uploads/2025/05/Switch-ANT.pdf"
+			(at 49.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ANT13SEBQE"
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/cit-relay-and-switch/ANT13SEBQE/12503275"
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ca02a74b-d6fc-4f5d-94b9-36170beb6e84")
+		)
+		(pin "2"
+			(uuid "930b066b-5671-4242-8c83-e80c576d8eec")
+		)
+		(pin "1"
+			(uuid "3944e7b0-7da6-4c2c-860f-85ca3ef49f51")
+		)
+		(instances
+			(project "SAS_PCBv2"
+				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.33 41.91 0)
 		(unit 1)
@@ -4949,6 +5341,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PNP_1")
 		(lib_id "Simulation_SPICE:PNP")
 		(at 38.1 128.27 180)
 		(unit 1)
@@ -4992,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/2n4403.pdf"
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/2N4402.PDF"
 			(at 2.54 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +5429,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 38.1 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5379,163 +5772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 49.53 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "911e16c1-790b-46cc-85bc-0e1de82f08b2")
-		(property "Reference" "SW1"
-			(at 49.53 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 49.53 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm"
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PURCHASE-URL" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7f16d8db-e85a-4fe7-a66d-f8f5026f8c0f")
-		)
-		(pin "1"
-			(uuid "c47200ee-8ae2-4b31-8b0b-0309ff6b02fe")
-		)
-		(instances
-			(project "SAS_PCBv2"
-				(path "/9d66b581-dc57-43dc-b827-73e5c0cd12f6/3d73fe98-5b95-4bdf-b7ce-5bce46366f48"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:PNP")
 		(at 53.34 128.27 0)
 		(mirror x)
@@ -5581,7 +5817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/2n4403.pdf"
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/2N4402.PDF"
 			(at 88.9 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5625,7 +5861,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 53.34 128.27 0)
 			(hide yes)
 			(show_name no)

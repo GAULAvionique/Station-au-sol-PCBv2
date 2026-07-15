@@ -215,6 +215,7 @@
         0.3,
         0.5,
         0.6,
+        0.75,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -779,7 +780,7 @@
         "uuid": "9d66b581-dc57-43dc-b827-73e5c0cd12f6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW2",
     "variants": []
   },
   "sheets": [
