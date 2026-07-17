@@ -2786,6 +2786,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 33.02) (xy 34.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea8a1eb-2ec6-4bac-88cc-b213358b826f")
+	)
+	(wire
+		(pts
 			(xy 31.75 113.03) (xy 31.75 116.84)
 		)
 		(stroke
@@ -2966,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 35.56) (xy 31.75 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9bb772-5758-4384-8c81-fda81cc55bbf")
+	)
+	(wire
+		(pts
 			(xy 59.69 113.03) (xy 59.69 116.84)
 		)
 		(stroke
@@ -3063,16 +3083,6 @@
 			(type default)
 		)
 		(uuid "8cf7aa10-5c53-41f9-93b6-658307dce047")
-	)
-	(wire
-		(pts
-			(xy 31.75 33.02) (xy 34.29 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92635a4c-f781-4343-ba48-50d1f5c3167a")
 	)
 	(wire
 		(pts
@@ -3243,16 +3253,6 @@
 			(type default)
 		)
 		(uuid "d26a7152-742b-4cd6-bc8e-6f018b69b1dc")
-	)
-	(wire
-		(pts
-			(xy 31.75 35.56) (xy 31.75 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d59e6ef6-fc7b-4885-a0d8-39719ae519c8")
 	)
 	(wire
 		(pts
@@ -6050,7 +6050,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 26.67 33.02 0)
+		(at 26.67 35.56 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6058,10 +6059,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4fd7977-0483-4965-96f0-149e581015fb")
 		(property "Reference" "J3"
-			(at 27.305 27.94 0)
+			(at 24.638 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6071,7 +6071,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 27.305 30.48 0)
+			(at 26.162 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6080,8 +6080,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 26.67 33.02 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +6092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,8 +6102,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 26.67 33.02 0)
+		(property "Description" "xt30"
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6114,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6125,7 +6125,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +6136,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6147,7 +6147,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,7 +6158,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6169,7 +6169,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6180,7 +6180,7 @@
 			)
 		)
 		(property "PURCHASE-URL" ""
-			(at 26.67 33.02 0)
+			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
